@@ -10,14 +10,13 @@ var createNewTaskElement=function(taskString){
 	var listItem=document.createElement("li");
 
 	//input (checkbox)
-	var checkBox=document.createElement("input");//checkbx
+	var checkBox=document.createElement("input");//checkbox
 	//label
 	var label=document.createElement("label");//label
 	//input (text)
 	var editInput=document.createElement("input");//text
 	//button.edit
 	var editButton=document.createElement("button");//edit button
-
 	//button.delete
 	var deleteButton=document.createElement("button");//delete button
 
@@ -55,7 +54,7 @@ var addTask=function(){
 	incompleteTaskHolder.appendChild(listItem);
 	bindTaskEvents(listItem, taskCompleted);
 
-	taskInput.value="";
+
 
 }
 
@@ -124,23 +123,16 @@ var taskIncomplete=function(){
 
 
 
-var ajaxRequest=function(){
-	console.log("AJAX Request");
-}
-
-//The glue to hold it all together.
-
-
 //Set the click handler to the addTask function.
-addButton.onclick=addTask;
+
 addButton.addEventListener("click",addTask);
-addButton.addEventListener("click",ajaxRequest);
+
 
 
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 	console.log("bind list item events");
 //select ListItems children
-	var checkBox=taskListItem.querySelector("input[type=checkbox]");
+
 	var editButton=taskListItem.querySelector("button.edit");
 	var deleteButton=taskListItem.querySelector("button.delete");
 
@@ -161,7 +153,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 		bindTaskEvents(incompleteTaskHolder.children[i],taskCompleted);
 	}
 
-
+//add limit here!
 
 
 //cycle over completedTasksHolder ul list items
