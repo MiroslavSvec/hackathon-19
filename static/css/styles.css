@@ -12,12 +12,21 @@ h3{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.bckg_img {
-   
-    width: 100%;
-    height: auto;
-    background-image: url('static/images/resolutions2.jpg');
-    background-repeat: no-repeat;
-    
- 
+.card{
+color: 7aff00
+}
+
+.coverbg{
+    background-color: #fceb6f;
+}
+
+.introbox{
+    background-color:#ff8e72; 
+    box-shadow: 0px 0px 50px #3981a6;
+}
+
+.letsgobuttom{
+    background-color:#C1F3FF; 
+    color:black; 
+    border: 2px solid #3891a6; 
 }
