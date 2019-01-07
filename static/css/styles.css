@@ -2,45 +2,68 @@
 
 @import url('https://fonts.googleapis.com/css?family=Happy+Monkey|Shrikhand|Ubuntu');
 
-h1{
+h1 {
     font-family: 'Happy Monkey', cursive;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-h2{
+
+h2 {
     font-family: 'Shrikhand', cursive;
 }
-h3{
+
+h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.card{
-color: #ffaa00;
-border:dotted 2px blue;
-padding:20px;
+.background {
+    background-color: ;
 }
 
-.coverbg{
+.card {
+    color: #ffaa00;
+    border: dotted 2px blue;
+    padding: 20px;
+}
+
+.coverbg {
     background-color: #fceb6f;
 }
 
-.introbox{
-    background-color:#ff8e72; 
+.introbox {
+    background-color: #ff8e72;
     box-shadow: 0px 0px 50px #3981a6;
 }
 
-.letsgobutton{
-    background-color:#C1F3FF; 
-    color:black; 
-    border: 2px solid #3891a6; 
+.letsgobutton {
+    background-color: #C1F3FF;
+    color: black;
+    border: 2px solid #3891a6;
 }
 
-ul{
+.taskbg {
+    background-color: #ff8e72
+}
+
+.nyrbox {
+    background-color: #ffe066;
+    box-shadow: 0px 0px 50px #3891a6;
+}
+
+
+
+ul {
     margin-top: 10px;
+    font-family: 'Shrikhand', cursive;
 }
 
-li{
+li {
     list-style: none;
-    padding-top:20px;
-    color:#ffff00;
-    font-size:20px;
+    padding-top: 20px;
+    color: black;
+    font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.close {
+    padding: 5px;
 }
