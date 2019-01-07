@@ -1,0 +1,23 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey|Shrikhand|Ubuntu');
+
+h1{
+    font-family: 'Happy Monkey', cursive;
+}
+h2{
+    font-family: 'Shrikhand', cursive;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bckg_img {
+   
+    width: 100%;
+    height: auto;
+    background-image: url('static/images/resolutions2.jpg');
+    background-repeat: no-repeat;
+    
+ 
+}

@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hackathon 2019</title>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" href="/static/css/styles.css" type="text/css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>19Resolutions</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css" />
 </head>
-<body>   
-    <div class="container">
-        
-        <h1 class="text-center">Create Your Tasks</h1>
-        
-        <div class="row">
-          <p><label for="new-task">Add New Years Resolution</label><input id="new-task" type="text"><button>Add</button></p>
+
+<body>
+
+    <div class="py-5 text-center text-white vh-100 align-items-center d-flex" style="background-color:#ff8e72">
+        <div class="container py-5">
+            <h1 class="text-center py-5">Create Your Tasks</h1>
+            <div class="card" style="background-color:#fceb6f; box-shadow: 0px 0px 50px #3891A6;">
+                <div class="card-header">
+                    <div>
+                        <input type="text" class="form-control text-center" id="task-name"  name="task-name" placeholder="Name your resolution" style="background-color: #94E0C9; color:black; border: 2px solid #3891a6;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <input type="text" class="form-control text-center" id="task-description" placeholder="Resolution description" style="background-color: #C1F3FF; color:black; border: 2px solid #3891a6;">
+                    <div class="row py-5 justify-content-around">
+                        <button class="btn btn-success" style="background-color: #D3FCFF; color:black; border: 2px solid #3891a6;">Add</button>
+                    </div>
+                </div>
+            </div>
         </div>
-            <div class="row">
-                <h3>To Be Completed</h3>
-                <ul id="incomplete-tasks">
-                    <li><input type="checkbox"><label>Become Rich</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
-                    <li class="editMode"><input type="checkbox"><label>Become Famous</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
-                </ul>
-            </div>
-            
-            <div class="row">
-                <h3>Completed</h3>
-                <ul id="completed-tasks">
-                    <li><input type="checkbox" checked><label>Finish New Years Resolution</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
-                 </ul>
-            </div>
-  
     </div>
-    
-    
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
+
 </html>

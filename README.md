@@ -1,26 +1,32 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# **19Resolution**
+--
+This is the project for the January Hackathon 2019
 
+## Strategy
+### What the project does
+*This is a double paged website to keep a list of New Years Resolutions. Users are able to add, keep track of their New Years Resolutions and check and delete completed New Years Resolutions.
 
-Hi there! Welcome to Cloud9 IDE!
+## The need it fulfills
+*To make a list of New Years Resolutions.
+*To show completed New Years Resolutions.
 
-To get you started, we included a small hello world application.
+### Target Audience
+*Anyone who undertakes New Years Resolutions.
 
-1) Open the hello-world.html file
+### Expansion strategy
+*Motivation with New Years Resolutions.
+*Ideas for possible New Years Resolutions.
 
-2) Click on the Preview button to open a live preview pane
+# How the website is setup
+---
+*Two Pages
+*Page One
+Introduction and button linking to New Years Resolution list page.
+*Page Two
+New Years Resolution list page.
 
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+#### What is used in the website
+* Google fonts
+* Bootstrap 4.2.1
+* cdnjs cloudflare
+* jQuery 3.3.1
