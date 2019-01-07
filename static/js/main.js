@@ -128,12 +128,13 @@ var ajaxRequest=function(){
 	console.log("AJAX Request");
 }
 
+//The glue to hold it all together.
 
 
 //Set the click handler to the addTask function.
-//addButton.onclick=addTask;
+addButton.onclick=addTask;
 addButton.addEventListener("click",addTask);
-//addButton.addEventListener("click",ajaxRequest);
+addButton.addEventListener("click",ajaxRequest);
 
 
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
@@ -161,12 +162,13 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 	}
 
 
-//Add limit here
+//add limit here
 
 //cycle over completedTasksHolder ul list items
 	for (var i=0; i<completedTasksHolder.children.length;i++){
 	//bind events to list items chldren(tasksIncompleted)
 		bindTaskEvents(completedTasksHolder.children[i],taskIncomplete);
 	}
+
 
 
