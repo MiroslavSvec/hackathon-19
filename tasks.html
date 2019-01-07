@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasks</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/css/styles.css" type="text/css" />
+		<script type="text/javascript" src="/static/js/main.js"></script>
+</head>
+<body>   
+    <div class="container">
+        
+        <h1>Create Your Tasks</h1>
+        
+        <div class="container">
+            
+            <div class="row">
+                <p><label for="new-task">Add New Years Resolution</label><input id="new-task" type="text"><button>Add</button></p>
+            </div>
+            
+            <div class="row">
+                <h3>To Be Completed</h3>
+                <ul id="incomplete-tasks">
+                    <li><input type="checkbox"><label>Become Rich</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                    <li class="editMode"><input type="checkbox"><label>Become Famous</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                </ul>
+            </div>
+            
+            <div class="row">
+                <h3>Completed</h3>
+                <ul id="completed-tasks">
+                    <li><input type="checkbox" checked><label>Finish New Years Resolution</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                 </ul>
+            </div>
+  
+    </div>
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/static/js/main.js"></script>
+</body>
+</html>
