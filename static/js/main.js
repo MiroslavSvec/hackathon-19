@@ -55,11 +55,9 @@ var addTask=function(){
 	incompleteTaskHolder.appendChild(listItem);
 	bindTaskEvents(listItem, taskCompleted);
 
-	if (taskInput ==="")
-{
-	    alert("Please Enter New Years Resolution");
-	}
+	taskInput.value="";
 
+}
 
 //Edit an existing task.
 
